@@ -12,3 +12,11 @@ body {
 	/* shades of green for border */
 	color: #087f5b;
 }
+
+.item {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	column-gap: 24px;
+	row-gap: 32px;
+	align-items: center;
+}
