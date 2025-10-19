@@ -24,3 +24,18 @@ body {
 .content-box {
 	grid-column: 2 / -1;
 }
+
+/* 
+<div className="item" key={i}>
+    <p className="number">
+        {`${i}`.length === 1 && i < 9 ? `0${i + 1}` : i + 1}
+    </p>
+
+    <p className="title">{faq.title}</p>
+
+    <p className="icon">+</p>
+
+    <p className="content-box">{faq.text}</p>
+</div>
+
+*/
