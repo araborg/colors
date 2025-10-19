@@ -20,3 +20,9 @@ body {
 	row-gap: 32px;
 	align-items: center;
 }
+
+.content-box {
+	grid-column: 2 / -1;
+	padding-bottom: 16px;
+	line-height: 1.6;
+}
