@@ -39,3 +39,22 @@ body {
 </div>
 
 */
+
+/* eat-n-split */
+.eat-n-split {
+	--color-lightest: #fff4e6;
+
+	--color-light: #ffe8cc;
+
+	--color-medium: #ffa94d;
+
+	--color-dark: #ff922b;
+
+	color: #495057;
+
+	color: #343a40;
+
+	color: #66a80f;
+
+	color: #e03131;
+}
