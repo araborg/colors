@@ -73,3 +73,14 @@ body {
 	column-gap: 4rem;
 	align-items: start;
 }
+
+/* transition */
+.button {
+	background-color: var(--color-medium);
+
+	transition: 0.3s;
+}
+
+.button:hover {
+	background-color: var(--color-dark);
+}
