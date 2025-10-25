@@ -56,11 +56,20 @@ body {
 	color: #e03131;
 }
 
-
 body {
 	height: 100vh;
-    
+
+	/* centre body's content */
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.app {
+	min-height: 66vh;
+
+	display: grid;
+	grid-template-columns: 40rem 44rem;
+	column-gap: 4rem;
+	align-items: start;
 }
