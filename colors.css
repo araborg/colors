@@ -71,7 +71,9 @@ body {
 	display: grid;
 	grid-template-columns: 40rem 44rem;
 	column-gap: 4rem;
+
 	align-items: start;
+	align-items: center;
 }
 
 /* transition */
