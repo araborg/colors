@@ -102,3 +102,8 @@ body {
 	--color-red: #fa5252;
 	--color-red-dark: #e03131;
 }
+
+/* star rating */
+body {
+	color: #fcc419;
+}
