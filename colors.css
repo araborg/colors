@@ -151,3 +151,8 @@ body-new {
 	--color-light--2: #ececec;
 	--color-light--3: #d6dee0;
 }
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+	color: var(--color-brand--2);
+}
