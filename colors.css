@@ -202,3 +202,11 @@ input:focus {
 	outline: none;
 	background-color: #fff;
 }
+
+.product {
+	min-height: calc(100vh - 5rem);
+}
+
+.homepage {
+	height: calc(100vh - 5rem);
+}
