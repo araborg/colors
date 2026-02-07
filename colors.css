@@ -233,3 +233,11 @@ input:focus {
 .city {
 	max-height: 70%;
 }
+
+.countryList {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	/* ds feature */
+	align-content: start;
+}
