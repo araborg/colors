@@ -259,5 +259,21 @@ input:focus {
 /* Atomic Blog */
 .fake-dark-mode {
 	filter: invert(100%);
+
 	transition: all 0.5s;
+}
+*::placeholder {
+	color: #999;
+}
+
+*:focus {
+	outline: 2px solid #ffa94d;
+	border-radius: 2px;
+}
+
+main ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 32px;
 }
