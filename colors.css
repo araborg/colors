@@ -251,3 +251,13 @@ input:focus {
 .logo {
 	height: 5.2rem;
 }
+
+.footer {
+	margin-top: auto;
+}
+
+/* Atomic Blog */
+.fake-dark-mode {
+	filter: invert(100%);
+	transition: all 0.5s;
+}
