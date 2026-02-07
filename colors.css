@@ -219,3 +219,7 @@ input:focus {
 .nav a:visited {
 	display: block;
 }
+
+.position {
+	box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
