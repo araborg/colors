@@ -171,3 +171,12 @@ body-new {
 
 /* Manrope font */
 @import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
+
+/*
+    "importCSSModule": {
+        "prefix": "csm",
+        "scope": "javascript,typescript,javascriptreact",
+        "body": ["import styles from './${TM_FILENAME_BASE}.module.css'"],
+        "description": "Import CSS Module as `styles`"
+    },
+*/
