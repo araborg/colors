@@ -229,3 +229,7 @@ input:focus {
         &larr; Back
     </button> 
 */
+
+.city {
+	max-height: 70%;
+}
