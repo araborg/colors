@@ -241,3 +241,8 @@ input:focus {
 	/* ds feature */
 	align-content: start;
 }
+
+.countryItem span:first-child {
+	font-size: 3rem;
+	line-height: 1;
+}
