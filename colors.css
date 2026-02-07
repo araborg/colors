@@ -214,3 +214,8 @@ input:focus {
 .product section {
 	width: clamp(80rem, 80%, 90rem);
 }
+
+.nav a:link,
+.nav a:visited {
+	display: block;
+}
