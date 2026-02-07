@@ -210,3 +210,7 @@ input:focus {
 .homepage {
 	height: calc(100vh - 5rem);
 }
+
+.product section {
+	width: clamp(80rem, 80%, 90rem);
+}
