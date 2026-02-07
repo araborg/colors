@@ -246,3 +246,8 @@ input:focus {
 	font-size: 3rem;
 	line-height: 1;
 }
+
+/* d logo is an img and height is preferred */
+.logo {
+	height: 5.2rem;
+}
