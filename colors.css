@@ -303,5 +303,10 @@ main ul {
 }
 
 .app {
+	/* 
+        The overscroll-behavior CSS property sets what a browser 
+        does when reaching the boundary of a scrolling area.
+    */
+
 	overscroll-behavior-y: none;
 }
