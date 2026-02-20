@@ -355,3 +355,9 @@ main ul {
 
     */
 }
+
+.footer {
+	margin-top: auto;
+
+	/* auto as a value in margin */
+}
