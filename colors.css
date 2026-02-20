@@ -309,4 +309,6 @@ main ul {
     */
 
 	overscroll-behavior-y: none;
+
+	/* Values: auto, contain, none */
 }
