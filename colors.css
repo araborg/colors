@@ -301,3 +301,7 @@ main ul {
 
 	color: inherit;
 }
+
+.app {
+	overscroll-behavior-y: none;
+}
