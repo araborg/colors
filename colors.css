@@ -312,3 +312,7 @@ main ul {
 
 	/* Values: auto, contain, none */
 }
+
+.sidebar {
+	flex-basis: 56rem;
+}
