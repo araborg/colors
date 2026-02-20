@@ -277,3 +277,27 @@ main ul {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 32px;
 }
+
+.btn {
+	/* 
+        color: inherit;
+
+        is ds really needed? Seems to be
+        relevant to back button. 
+        
+        inherit relates with d parent color. eg. d parent color 4
+        d form is:
+        color: #ececec;
+
+        from index.css
+
+        body {
+            color:  #ececec;
+        }
+
+        If u want to alter inherit ppties dn def a new color code
+        4 dt respective html elemt
+    */
+
+	color: inherit;
+}
