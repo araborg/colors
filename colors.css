@@ -315,4 +315,10 @@ main ul {
 
 .sidebar {
 	flex-basis: 56rem;
+
+	/*
+        flex-basis property:
+        defines the initial size of a flex item along the main axis of the flex container, before the flex-grow or flex-shrink properties are applied to distribute available space. It functions similarly to the width or height property but is dynamic, changing its affected dimension based on the flex-direction
+
+    */
 }
