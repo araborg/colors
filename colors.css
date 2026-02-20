@@ -320,5 +320,14 @@ main ul {
         flex-basis property:
         defines the initial size of a flex item along the main axis of the flex container, before the flex-grow or flex-shrink properties are applied to distribute available space. It functions similarly to the width or height property but is dynamic, changing its affected dimension based on the flex-direction
 
+        Key Concepts:
+
+        Initial Size: flex-basis sets the starting size of the item before the browser calculates how to distribute extra space (flex-grow) or remove space to prevent overflow (flex-shrink).
+        Main Axis: The property affects the dimension that corresponds to the main axis of the flex container.
+            If flex-direction is row (the default), flex-basis controls the item's width.
+            If flex-direction is column, flex-basis controls the item's height.
+        Overrides width/height: When a value other than auto is specified, flex-basis takes precedence over any width or height properties set on the flex item along the main axis.
+        Shorthand: It is recommended to use the flex shorthand property, which combines flex-grow, flex-shrink, and flex-basis (e.g., flex: 1 1 auto;). 
+
     */
 }
