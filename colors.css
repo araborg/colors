@@ -365,4 +365,11 @@ body {
 		Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 	margin: 40px;
+
+	color: #f7f7f7;
+}
+
+/* wt does ds mean? */
+.inputs > * + * {
+	margin-top: 20px;
 }
